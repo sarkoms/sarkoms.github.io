@@ -1,0 +1,31 @@
+html, body, .app{
+    width: 100%;
+    height: 100%;
+}
+
+.app{
+    display: flex;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+aside {
+    background-color: #444C63;
+    flex-basis: 200px;
+}
+
+header{
+    flex-basis: 150px;
+    background-color: rgb(255, 217, 0);
+
+}
+
+.photos{
+    flex: 1;
+    overflow: auto;
+}
